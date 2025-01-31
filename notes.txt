@@ -1,0 +1,164 @@
+Site layout:
+    Header: Logo
+    Main: About us | Client Service | Commercial Services | Client Testimonials | Community Support
+    Footer: Copyright | privacy policy | address | phone | email
+
+Current sites:
+    Construction: 
+        https://ccsconstructionllc.com/
+
+    Plumbing:
+        https://ccsplumbingservices.com/
+
+Notes on Construction site:
+    -tbd
+
+Notes on Plumbing site:
+    -tiles are alright for desktop only
+    -possible parallax/scroll site with defined sections.
+    -community support section should be at the forefront, not behind a tile.
+    -I dont like having to click a tile and scroll...
+    -Address should be clickable to map directions...
+    -phone# should be able to dial on mobile...
+    - privacy policy actually tracks?
+    -update copyright date
+    -missing closing parentheses on backflow line in Preventative Maintenance
+
+pictures (fronts of the tiles...):
+https://ccsplumbingservices.com/wp-content/uploads/2024/06/Picture5.jpg
+https://ccsplumbingservices.com/wp-content/uploads/2024/06/Picture4.jpg
+https://ccsplumbingservices.com/wp-content/uploads/2024/06/Picture3.jpg
+https://ccsplumbingservices.com/wp-content/uploads/2024/06/Picture2.jpg
+https://ccsplumbingservices.com/wp-content/uploads/2024/06/Picture1.jpg
+
+=======================================================================================
+
+About us:
+“We don’t run service calls; we solve plumbing problems.”
+
+CCS Plumbing Services was started in 2019 for the purpose of bringing a higher level of customer service and quality plumbing within an industry that doesn’t prioritize its clients first.
+
+Our team was built around delivering a positive and complete client experience.
+
+We will continue to build strong client relationships through trust and constant communication.
+
+===========================================================================================
+
+Client Service:
+Strong Communication- Real time correspondence to our client’s requests. “Communication is the key.”
+
+Rapid Response- Our team is organized to be on site quickly.
+Quality Workmanship- Jobs completed by a team with diversified skill sets.
+Reasonable Pricing- We only do the work that is necessary.
+Written Documentation- Our goal is to enable our clients to understand and document the outcome to create efficiencies.
+
+===========================================================================================
+
+Commercial Services:
+“We only do work that is necessary.”
+
+Above Ground
+
+Water Heater Repair & Installation (Tank & Tankless)
+Fixtures- Repair & Replace
+Drain Cleaning
+Line & Leak Detection
+Underground
+
+Sewer & Waterline Excavation
+Gas Line Installation and Testing
+Water Line Repairs
+Video Inspection
+Preventative Maintenance
+
+Hydro Jetting/Descaling Lines
+Backflow (Installation, Inspection, Testing)
+Fire Hydrants
+Water Heaters (Tank & Tankless)
+
+=============================================================================================
+
+Client Testimonials:
+“We act as partners.”
+
+"With the volume of service requests I see on a daily basis, I appreciate the way CCSPS communicates. Intense large projects are brought into the limelight. The small routine projects go unnoticed and are just completed. All projects are completed the first time. I haven’t experienced a call back yet.”
+– Director of Facilities, Leading Restaurant Group
+
+"Rick and his crew have always gone above and beyond to make sure our expectations are met. There's been many times where I've needed a plumbing repair done right away and I have yet to be let down. From small jobs to large scale projects, we have made CCS plumbing our go to company after using the same big-name company for years."
+- Director of Facilities, Local Restaurant Group
+
+"I've been in this industry for a while and it's tough to find a company that truly cares and understands our needs as a property management company. With CCS it's more than just the great work they do, it's the relationships that have been built."
+- Maintenance Director, Leading Property Management Group
+
+============================================================================================
+
+Community Support 
+"We are committed to giving back"
+
+Mid-ohio food collective
+Mid-Ohio Food Collective provides fresh, nutritious food across 20 counties
+https://www.dispatch.com/story/sponsor-story/mid-ohio-food-collective/2022/08/30/mid-ohio-food-collective-provides-fresh-nutritious-food-across-20-counties/65463532007/
+
+Leukemia & Lymphoma Society
+https://www.lls.org/
+
+Columbus Humane
+https://www.columbushumane.org/
+
+=================================================================================================
+
+Footer:
+
+
+Copyright CCS Mechanical Services 2025
+
+
+Privacy policy:
+CCS Mechanical Services (LLC) is committed to respecting your online privacy and recognizes your need for appropriate protection and management of any personally identifiable information you share with us.
+
+Personal information means any information that may be used to identify an individual, including, but not limited to, a first and last name, a home or other physical address and an email address or other contact information, whether at work or at home. In general, you can visit CCS Mechanical Services’ web pages without telling us who you are or revealing any personal information about yourself.
+
+If you choose to provide us with your personal information on the Web, we may transfer that information within CCS Mechanical Services or to CCS Mechanical Services’ third-party service providers, across borders, and from your country or jurisdiction to other countries or jurisdictions around the world.
+
+CCS Mechanical Services strives to comply with all applicable laws around the globe that are designed to protect your privacy. Although legal requirements may vary from country to country, CCS Mechanical Services intends to adhere to the principles set forth in this Online Privacy Policy even if, in connection with the above, we transfer your personal information from your country to countries that may not require an “adequate” level of protection for your Personal Information. In other words, our goal is to provide protection for your Personal Information no matter where that Personal Information is collected, transferred, or retained.
+
+Tracking Technologies
+
+Our Web pages may utilize popular tracking technologies. Tracking technologies may record information such as Internet domain and host names; Internet protocol (IP) addresses; browser software and operating system types; click patterns; and dates and times that our site is accessed. Our use of tracking technologies allows us to improve our Web site and your Web experience. We may also analyze information that does not contain personal information for trends and statistics.
+
+To protect your privacy, we have adopted the following principles:
+
+Choice
+Security
+Access/Accuracy
+Choice
+You may choose whether or not to provide personal information to CCS Mechanical Services. The notice we intend to provide where CCS Mechanical Services collects personal information on the Web should help you to make this choice. If you choose not to provide the personal information we request, you can still visit most of CCS Mechanical Services’ web pages, but you may be unable to access certain options, offers, and services that involve our interaction with you.
+
+If you choose to have a relationship with CCS Mechanical Services, such as a contractual or other business relationship or partnership, we will naturally continue to contact you in connection with that business relationship.
+
+Security
+Wherever your personal information may be held within CCS Mechanical Services or on its behalf, we intend to take reasonable and appropriate steps to protect the personal information that you share with us from unauthorized access or disclosure.
+
+Access/Accuracy
+To the extent that you do provide us with personal information, CCS Mechanical Services wishes to maintain accurate personal information. Where we collect personal information from you on the Web, our goal is to provide a means of contacting CCS Mechanical Services should you need to update or correct that information. If for any reason those means are unavailable or inaccessible, you may send updates and corrections about your personal information to our mailing address and we will make reasonable efforts to incorporate the changes in your personal information that we hold as soon as practicable.
+
+Third Party Services
+CCS Mechanical Services does not intend to transfer personal information without your consent to third parties who are not bound to act on CCS Mechanical Services’ behalf unless such transfer is legally required. Similarly, it is against CCS Mechanical Services’ policy to sell personal information collected online without consent.
+
+Commitment
+We are committed to privacy support current industry initiatives to preserve individual privacy rights on the Internet. Protecting your privacy online is an evolving area, and CCS Mechanical Services’ Web pages are constantly evolving to meet these demands.
+
+Your Consent
+By using this Web site, you consent to the terms of our Online Privacy Policy and to CCS Mechanical Services processing of personal information for the purposes given above as well as those explained where CCS Mechanical Services collects personal information on the Web. Should the Online Privacy Policy change, we intend to take every reasonable step to ensure that these changes are brought to your attention by posting all changes prominently on our web site for a reasonable period of time.
+
+===================================================================================
+
+
+Physical address:
+8675 Memorial Drive, Plain City OH, 43064
+
+Phone:
+614-698-6889
+
+Email:
+plumbing@ccsplumbingservices.com
