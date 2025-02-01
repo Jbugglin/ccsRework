@@ -1,7 +1,15 @@
+Parallax scroll site?
+
+
 Site layout:
     Header: Logo
     Main: About us | Client Service | Commercial Services | Client Testimonials | Community Support
     Footer: Copyright | privacy policy | address | phone | email
+
+Media query breakpoints:
+    Smartphones (portrait and landscape): min of 320px max of 480px
+    Tablets (portrait and landscape): min of 768px max of 1024px
+    Desktop: min-width of 1224px
 
 Current sites:
     Construction: 
