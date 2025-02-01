@@ -1,10 +1,46 @@
-Parallax scroll site?
+Features according to serviceTitan:
+    Mobile-friendly format
+    Easy to find on google
+    Clear calls to action and esay appointment booking (Request for info, scheduling consultation, booking appt...lead magnets...)
+    Feature positive reviews and Testimonials
+    Display services clearly
+    Awards and community commintment
+    Social media links/buttons
+    information and resources
+    Track website metrics and roi
+
+
+
+Comparable sites:
+    EcoPlumbers
+    Header: logo, book online, call now...cta
+    Home, about us, locatoins, offers, services, service areas, order filters, contact us
+    body has a blog...
+
+    Footer: address & email, cta, social media links, BBB rating link to prof, service areas, reviews, chatbot. 
+    copyright, privacy poizym sitemap
+
+    rotorooter:
+    offer popup...
+    header: logo, location, call phone#, schedule service
+    body: rating on google, another cta phone link, hero img, service links, deals, schedule online, reviews, affiliations, membership, plumbing licenses....
+            back to top link.
+    footer: logo, address,sched service, contact, prod, about, store, CA site, sitemap, careers
+                copyright, DNSPI, unsub, privacy policy, TOU, CCPA notice, TIC rule, social media links.
 
 
 Site layout:
-    Header: Logo
-    Main: About us | Client Service | Commercial Services | Client Testimonials | Community Support
-    Footer: Copyright | privacy policy | address | phone | email
+    Mobile/Tablet:
+        Header: Logo | phone button
+        Main:
+        Footer:
+
+    Desktop:
+        Header:
+        Main:
+        Footer:
+
+    
 
 Media query breakpoints:
     Smartphones (portrait and landscape): min of 320px max of 480px
