@@ -99,7 +99,11 @@ footer p {
     }
 
     main section {
-        margin: 1rem 0rem;
+        margin: 2.5rem 0rem;
+    }
+
+    #about-us {
+        margin: 1rem 0rem 2.5rem 0rem;
     }
 
     main section h1 {
