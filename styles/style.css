@@ -21,13 +21,9 @@ header a {
     color: whitesmoke;
 }
 
-header a img {
-    height: auto;
-    width: 100px;
-}
-
 header .cta-phone {
     border: 1px solid whitesmoke;
+    border-radius: 0.25rem;
 }
 
 footer {
@@ -46,7 +42,59 @@ footer p {
 
 /* Mobile-viewport */
 @media only screen and (max-width: 425px) {
+    header {
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    header a img {
+        width: 50px;
+        height: auto;
+    }
+
+    header .cta-phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.625rem;
+    }
+    header a span {}
+
+    main {}
+    main section {}
+
+    main section #about-us {}
+    main section #about-us h1 {}
+    main section #about-us p {}
+
+    main section #client-service {}
+    main section #client-service ul {}
+    main section #client-service ul li {}
+
+    main section #commercial-services {}
+    main section #commercial-services h1 {}
+    main section #commercial-services h2 {}
+    main section #commercial-services ul {}
+    main section #commercial-services ul li {}
+
+    main section #client-testimonials {}
+    main section #client-testimonials h1 {}
+    main section #client-testimonials p {}
+    main section #client-testimonials p span {}
+
+    main section #community-support {}
+    main section #community-support h1 {}
+    main section #community-support ul {}
+    main section #community-support ul li {}
+    main section #community-support ul li a {}
+    main section #community-support ul li a img {}
+
+    footer {}
+    footer a {}
+    footer p {}
 }
 /* Tablet-viewport */
 @media only screen and (min-width: 426px) {
