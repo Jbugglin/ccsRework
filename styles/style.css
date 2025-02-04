@@ -26,8 +26,30 @@ header .cta-phone {
     border-radius: 0.25rem;
 }
 
+h1 {
+    font-size: 1.625rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.125rem;
+}
+
 p {
     line-height: 1.5;
+}
+
+ul {
+    font-size: 0.95rem;
+    padding: 0rem 1rem;
+}
+
+ul li {
+    margin: 0.25rem 0rem;
+}
+
+ul li::marker {
+    color: red;
 }
 
 footer {
@@ -75,49 +97,50 @@ footer p {
     }
 
     main section {
-        margin: 1rem 0rem;
+        margin: 3rem 0rem;
     }
 
     main section h1 {
-        font-size: 1.625rem;
-        text-align: center;
         margin: 1rem 0rem;
     }
 
-    #client-service ul {
-        font-size: 0.95rem;
-        padding: 0rem 1rem;
+    #client-testimonials p {
+        margin: 2rem 0rem;
+        font-size: 0.9rem;
     }
 
-    #client-service ul li {
-        margin: 0.25rem 0rem;
+    #community-support ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    #client-service ul li::marker {
-        color: red;
-    }    
+    #community-support ul li {
+        list-style-type: none;
+    }
 
-    main section #commercial-services {}
-    main section #commercial-services h1 {}
-    main section #commercial-services h2 {}
-    main section #commercial-services ul {}
-    main section #commercial-services ul li {}
+    #community-support ul li a img {
+        width: 100px;
+        height: auto;
+        margin: 0.25rem;
+    }
 
-    main section #client-testimonials {}
-    main section #client-testimonials h1 {}
-    main section #client-testimonials p {}
-    main section #client-testimonials p span {}
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-    main section #community-support {}
-    main section #community-support h1 {}
-    main section #community-support ul {}
-    main section #community-support ul li {}
-    main section #community-support ul li a {}
-    main section #community-support ul li a img {}
+    footer a {
+        margin: 0.125rem 0rem;
+    }
 
-    footer {}
-    footer a {}
-    footer p {}
+    footer p {
+        font-size: 0.625rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        color: whitesmoke;
+    }
 }
 /* Tablet-viewport */
 @media only screen and (min-width: 426px) {
