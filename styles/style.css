@@ -1,6 +1,3 @@
-:root {
-    --header-bg: ;
-}
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -15,46 +12,48 @@ html, body {
 }
 
 header {
-    border: 2px solid red;
+    height: fit-content;
+    background-color: black;
 }
-header a {}
-header a img {}
-header a span {}
 
-main {}
-main section {}
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
-main section #about-us {}
-main section #about-us h1 {}
-main section #about-us p {}
+header a img {
+    height: auto;
+    width: 100px;
+}
 
-main section #client-service {}
-main section #client-service ul {}
-main section #client-service ul li {}
+header .cta-phone {
+    border: 1px solid whitesmoke;
+}
 
-main section #commercial-services {}
-main section #commercial-services h1 {}
-main section #commercial-services h2 {}
-main section #commercial-services ul {}
-main section #commercial-services ul li {}
+footer {
+    height: fit-content;
+    background-color: black;
+}
 
-main section #client-testimonials {}
-main section #client-testimonials h1 {}
-main section #client-testimonials p {}
-main section #client-testimonials p span {}
-
-main section #community-support {}
-main section #community-support h1 {}
-main section #community-support ul {}
-main section #community-support ul li {}
-main section #community-support ul li a {}
-main section #community-support ul li a img {}
-
-footer {}
-footer a {}
-footer p {}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.75rem;
+}
+footer p {
+    font-size: 0.625rem;
+}
 
 /* Mobile-viewport */
+@media only screen and (max-width: 425px) {
+
+}
 /* Tablet-viewport */
+@media only screen and (min-width: 426px) {
+
+}
 /* Desktop-viewport */
+@media only screen and (min-width: 768px) {
+
+}
 
