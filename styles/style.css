@@ -26,6 +26,10 @@ header .cta-phone {
     border-radius: 0.25rem;
 }
 
+p {
+    line-height: 1.5;
+}
+
 footer {
     height: fit-content;
     background-color: black;
@@ -66,16 +70,32 @@ footer p {
         font-size: 0.625rem;
     }
 
-    main {}
-    main section {}
+    main {
+        padding: 1rem;
+    }
 
-    main section #about-us {}
-    main section #about-us h1 {}
-    main section #about-us p {}
+    main section {
+        margin: 1rem 0rem;
+    }
 
-    main section #client-service {}
-    main section #client-service ul {}
-    main section #client-service ul li {}
+    main section h1 {
+        font-size: 1.625rem;
+        text-align: center;
+        margin: 1rem 0rem;
+    }
+
+    #client-service ul {
+        font-size: 0.95rem;
+        padding: 0rem 1rem;
+    }
+
+    #client-service ul li {
+        margin: 0.25rem 0rem;
+    }
+
+    #client-service ul li::marker {
+        color: red;
+    }    
 
     main section #commercial-services {}
     main section #commercial-services h1 {}
