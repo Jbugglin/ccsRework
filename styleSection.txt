@@ -9,31 +9,31 @@ header a span {}
 main {}
 main section {}
 
-main section #about-us {}
-main section #about-us h1 {}
-main section #about-us p {}
+#about-us {}
+#about-us h1 {}
+#about-us p {}
 
-main section #client-service {}
-main section #client-service ul {}
-main section #client-service ul li {}
+#client-service {}
+#client-service ul {}
+#client-service ul li {}
 
-main section #commercial-services {}
-main section #commercial-services h1 {}
-main section #commercial-services h2 {}
-main section #commercial-services ul {}
-main section #commercial-services ul li {}
+#commercial-services {}
+#commercial-services h1 {}
+#commercial-services h2 {}
+#commercial-services ul {}
+#commercial-services ul li {}
 
-main section #client-testimonials {}
-main section #client-testimonials h1 {}
-main section #client-testimonials p {}
-main section #client-testimonials p span {}
+#client-testimonials {}
+#client-testimonials h1 {}
+#client-testimonials p {}
+#client-testimonials p span {}
 
-main section #community-support {}
-main section #community-support h1 {}
-main section #community-support ul {}
-main section #community-support ul li {}
-main section #community-support ul li a {}
-main section #community-support ul li a img {}
+#community-support {}
+#community-support h1 {}
+#community-support ul {}
+#community-support ul li {}
+#community-support ul li a {}
+#community-support ul li a img {}
 
 footer {}
 footer a {}
