@@ -48,11 +48,16 @@ header .cta-phone {
     border-radius: 0.25rem;
 }
 
-
-
 main section {
-    border-radius: 0.5rem;
     padding: 1rem;
+}
+
+#about-us {
+    background-image: url(../assets/sigmund-4CNNH2KEjhc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
 }
 
 h1 {
@@ -116,18 +121,6 @@ footer p {
 
 /* Mobile-viewport */
 @media only screen and (max-width: 425px) {
-    main {
-        padding: 1rem;
-    }
-
-    main section {
-        margin: 2.5rem 0rem;
-    }
-
-    #about-us {
-        margin: 1rem 0rem 2.5rem 0rem;
-    }
-
     main section h1 {
         margin: 1rem 0rem;
     }
@@ -168,6 +161,7 @@ footer p {
 @media only screen and (min-width: 426px) {
 
 }
+
 /* Desktop-viewport */
 @media only screen and (min-width: 768px) {
     header {
@@ -192,16 +186,8 @@ footer p {
         font-size: 0.9rem;
     }
 
-    main {
-        padding: 3rem;
-    }
-
-    main section {
-        margin: 1rem 0rem;
-    }
-
-    ul {
-        padding: 0rem 2rem;
+    #about-us {
+        height: 350px;
     }
 
     #commercial-services .container {
