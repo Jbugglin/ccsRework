@@ -12,21 +12,23 @@ html, body {
 }
 
 header {
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 
 button {
     background-color: white;
-    border-radius: 0.25rem;
-    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    padding: 0.375rem 1.5rem;
 }
 
 .cta-button a {
     text-decoration: none;
     color: black;
+    font-size: 0.95rem;
+    margin: 1rem;
 }
 
 /* Mobile */
@@ -35,12 +37,9 @@ button {
     header {
         width: 100%;
         height: fit-content;
-    }
-
-    .logo {
-        width: 75%;
         display: flex;
-        
+        justify-content: center;
+        align-items: center;
     }
 
     .logo img {
@@ -49,7 +48,55 @@ button {
     }
 
     .cta-button {
-        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Main - content sections */
+    main {
+        width: 100%;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    /* Hero section */
+    .hero-section {
+        background-image: url(../assets/sigmund-4CNNH2KEjhc-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsla(0, 100%, 99%, 0.815);
+        background-blend-mode: lighten;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section h1 {
+        margin: 0.25rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        margin: 0.5rem 0rem;
+        font-size: 1.125rem;
+    }
+
+    /* Client service section */
+    .client-service-section ul {
+        padding: 2rem;
+    }
+
+    .client-service-section ul li::marker {
+        color: red;
     }
 
     footer {

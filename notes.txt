@@ -8,6 +8,13 @@ Logo sizings:
     favicon: conv 16px x 16px, hires: 32 x 32 or 48 x 48
     mobile: 180px x 180px (ios), 192px x 192px (android)
 
+Hero images:
+    16:9, 1080px x 1920px
+
+    4:5, 1080 x 1350px
+    1:1, 1080 x 1080px
+    1.59:1, 1080 x 680px
+
 hero
 content - 2 col text/img 
 social proof - show 1 at a time, but iterate through the elements...
