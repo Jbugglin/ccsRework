@@ -33,11 +33,26 @@ footer {
 /* Mobile */
 @media only screen and (min-width: 320px) {
     /* Header */
-    header {}
+    header {
+        width: 100%;
+        padding: 0.75rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
 
     .logo img {
         width: 192px;
         height: auto;
+    }
+
+    .cta-button {
+        width: 50%;
+    }
+
+    footer {
+        display: none;
     }
 }
 
