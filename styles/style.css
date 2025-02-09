@@ -35,7 +35,6 @@ footer {
     /* Header */
     header {
         width: 100%;
-        padding: 0.75rem;
     }
 
     .logo {
@@ -49,6 +48,7 @@ footer {
 
     .cta-button {
         width: 50%;
+
     }
 
     footer {
