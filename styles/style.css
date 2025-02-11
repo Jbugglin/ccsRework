@@ -11,21 +11,14 @@ html, body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html {
-    scroll-snap-type: y mandatory;
-}
-
-section {
-    height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-}
-
 header {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
+
+    position: fixed;
+    top: 0;
 }
 
 button {
@@ -47,10 +40,15 @@ ul li::marker {
 
 /* Mobile */
 @media only screen and (min-width: 320px) {
+    html {
+        scroll-snap-type: y mandatory;
+        scroll-padding-top: 100px;
+    }
+
     /* Header */
     header {
         width: 100%;
-        height: 50px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,7 +71,12 @@ ul li::marker {
     }
 
     section {
-        padding: 1rem;
+        padding: 0rem 1rem;
+
+        height: 100dvh;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        scroll-behavior: smooth;
     }
 
     h1 {
@@ -118,19 +121,16 @@ ul li::marker {
     }
 
     /* Client service section */
-    .client-service-section {
-        margin: 1rem 0rem;
-    }
 
     .client-service-section ul {
-        padding: 1.5rem 2.5rem;
+        padding: 0rem 2.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .client-service-section ul li {
+    .client-service-section li {
         margin: 0.5rem 0rem;
         line-height: 1.5;
     }
@@ -140,15 +140,8 @@ ul li::marker {
         background-color: hsl(0, 0%, 97%);
     }
 
-    .container {
-        margin: 1rem 0rem;
-    }
-
     .services-container {
         width: 100%;
-    }
-
-    .services-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -157,10 +150,13 @@ ul li::marker {
     .right-side {
         width: 50%;
         font-size: 0.85rem;
+        padding: 1rem;
     }
 
     .left-side {
         width: 50%;
+        padding: 1rem;
+        font-size: 0.85rem;
     }
 
     .left-side img {
@@ -170,6 +166,26 @@ ul li::marker {
 
     .right-side img {
         width: 100%;
+        height: auto;
+    }
+
+    /* Client testimonial section */
+    .testimonial {
+        margin: 1rem;
+    }
+
+    /* Community support section */
+    .community-support ul {
+        padding: 1rem;
+    }
+
+    .community-support li {
+        list-style-type: none;
+        margin: 1rem;
+    }
+
+    .community-support a img {
+        width: 250px;
         height: auto;
     }
 
