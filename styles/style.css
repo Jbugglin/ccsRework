@@ -1,3 +1,8 @@
+:root {
+    --header-bg: black;
+    --community-support-bg: rgb(250, 250, 250);
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -15,9 +20,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: var(--header-bg);
 
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
@@ -42,20 +47,19 @@ ul li::marker {
 @media only screen and (min-width: 320px) {
     html {
         scroll-snap-type: y mandatory;
-        scroll-padding-top: 100px;
     }
 
     /* Header */
     header {
         width: 100%;
-        height: 100px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .logo img {
-        width: 192px;
+        width: 150px;
         height: auto;
     }
 
@@ -82,6 +86,7 @@ ul li::marker {
     h1 {
         text-align: center;
         font-size: 1.75rem;
+        padding: 2rem 0rem;
     }
 
     h2 {
@@ -140,6 +145,10 @@ ul li::marker {
         background-color: hsl(0, 0%, 97%);
     }
 
+    .commercial-services-section .services-container {
+        margin: 1rem 0.5rem;
+    }
+
     .services-container {
         width: 100%;
         display: flex;
@@ -171,20 +180,40 @@ ul li::marker {
 
     /* Client testimonial section */
     .testimonial {
-        margin: 1rem;
+        margin: 1rem 1rem;
+    }
+
+    .testimonial p {
+        font-size: 0.95rem;
+    }
+
+    hr {
+        width: 50%;
+        margin: auto;
+        border-top: none;
     }
 
     /* Community support section */
-    .community-support ul {
+    .community-support-section {
+        background-color: var(--community-support-bg);
+    }
+    .community-support-section ul {
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .community-support li {
+    .community-support-section li {
         list-style-type: none;
         margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .community-support a img {
+    .community-support-section a img {
         width: 250px;
         height: auto;
     }
