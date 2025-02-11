@@ -1,5 +1,6 @@
 :root {
     --header-bg: black;
+    --commercial-services-bg: hsl(0, 0%, 97%);
     --community-support-bg: rgb(250, 250, 250);
 }
 
@@ -22,7 +23,7 @@ header {
     align-items: center;
     background-color: var(--header-bg);
 
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
@@ -77,7 +78,7 @@ ul li::marker {
     section {
         padding: 0rem 1rem;
 
-        height: 100dvh;
+        min-height: 100vh;
         scroll-snap-align: start;
         scroll-snap-stop: always;
         scroll-behavior: smooth;
@@ -97,14 +98,6 @@ ul li::marker {
 
     /* Hero section */
     .hero-section {
-        /*
-        background-image: url(../assets/sigmund-4CNNH2KEjhc-unsplash.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: hsla(0, 100%, 99%, 0.815);
-        background-blend-mode: lighten;
-
-        */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -135,18 +128,26 @@ ul li::marker {
         align-items: center;
     }
 
+    .service {
+        margin: 0.75rem 0rem;
+    }
+
     .client-service-section li {
-        margin: 0.5rem 0rem;
-        line-height: 1.5;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.75rem 0rem;
     }
 
     /* Commercial services section */
     .commercial-services-section {
-        background-color: hsl(0, 0%, 97%);
+        background-color: var(--commercial-services-bg);
     }
 
     .commercial-services-section .services-container {
-        margin: 1rem 0.5rem;
+        margin: 0.5rem 0.5rem;
     }
 
     .services-container {
@@ -195,19 +196,21 @@ ul li::marker {
 
     /* Community support section */
     .community-support-section {
-        background-color: var(--community-support-bg);
+        position: relative;
     }
+
     .community-support-section ul {
-        padding: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 2rem 0rem;
     }
 
     .community-support-section li {
         list-style-type: none;
         margin: 1rem;
+        padding: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -219,7 +222,10 @@ ul li::marker {
     }
 
     footer {
-        display: none;
+        height: 100px;
+        background-color: var(--header-bg);
+        bottom: 0;
+        position: fixed;
     }
 }
 
