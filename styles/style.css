@@ -129,7 +129,7 @@ ul li::marker {
     }
 
     .service {
-        margin: 0.75rem 0rem;
+        margin: 0.375rem 0rem;
     }
 
     .client-service-section li {
@@ -138,7 +138,7 @@ ul li::marker {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0.75rem 0rem;
+        margin: 0.5rem 0rem;
     }
 
     /* Commercial services section */
