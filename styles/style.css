@@ -23,7 +23,7 @@ header {
     align-items: center;
     background-color: var(--header-bg);
 
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
@@ -224,8 +224,6 @@ ul li::marker {
     footer {
         height: 100px;
         background-color: var(--header-bg);
-        bottom: 0;
-        position: fixed;
     }
 }
 
