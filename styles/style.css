@@ -5,6 +5,7 @@
     --accent-red: red;
     --button-font: white;
     --footer-link: white;
+    --hero-blend: hsla(0, 3%, 94%, 0.733);
 }
 
 *, *::before, *::after {
@@ -25,6 +26,14 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--header-bg);
+}
+
+.hero-section {
+    background-image: url(../assets/sigmund-4CNNH2KEjhc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--hero-blend);
+    background-blend-mode: lighten;
 }
 
 button {
@@ -80,7 +89,6 @@ strong {
 
     section {
         padding: 0rem 1rem;
-        margin: 3rem 0rem;
         min-height: 100vh;
     }
 
