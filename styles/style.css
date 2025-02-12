@@ -3,6 +3,8 @@
     --commercial-services-bg: hsl(0, 0%, 97%);
     --community-support-bg: rgb(250, 250, 250);
     --accent-red: red;
+    --button-font: white;
+    --footer-link: white;
 }
 
 *, *::before, *::after {
@@ -80,6 +82,7 @@ strong {
     section {
         padding: 0rem 1rem;
         margin: 3rem 0rem;
+        min-height: 100vh;
     }
 
     h1 {
@@ -113,7 +116,19 @@ strong {
     }
 
     .hero-section button {
-        margin: 1rem 0rem;
+        margin: 2rem 0rem;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--accent-red);
+        border: none;
+    }
+
+    .hero-section a {
+        font-size: 1.125rem;
+        font-weight: 900;
+        color: var(--button-font);
     }
 
     /* Client service section */
@@ -221,6 +236,15 @@ strong {
 
     footer {
         background-color: var(--header-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: var(--footer-link);
     }
 }
 
