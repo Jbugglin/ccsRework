@@ -265,12 +265,78 @@ strong {
     }
 }
 
-/* Tablet */
-@media only screen and (min-width: 426px) {
-
-}
+/* Tablet - will add if needed... */
+@media only screen and (min-width: 426px) {}
 
 /* Desktop */
 @media only screen and (min-width:768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .hero-section h1 {
+        width: 670px;
+        text-align: left;
+    }
+
+    .hero-section p {
+        width: 700px;
+    }
+
+    .client-service-section li {
+        margin: 0.75rem;
+    }
+
+    .client-service-section .service {
+        margin: 0.75rem;
+        width: 500px;
+        text-align: left;
+    }
+
+    .commercial-services-section .container {
+        padding: 1rem 4rem;
+    }
+
+    .commercial-services-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .commercial-services-section .services-container {
+        padding: 2rem;
+    }
+
+    .commercial-services-section img {
+       border-radius: 0.75rem;
+    }
+
+    .commercial-services-section ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .commercial-services-section ul li {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .client-testimonials .testimonial {
+        width: 50%;
+        margin: 1rem auto;
+    } 
     
+    .client-testimonials hr {
+        width: 25%;
+        margin: 3rem auto;
+    }
+
+    .community-support-section ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .community-support-section ul li {
+        margin: auto 2rem;
+    }
 }
