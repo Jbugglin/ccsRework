@@ -2,6 +2,7 @@
     --header-bg: black;
     --commercial-services-bg: hsl(0, 0%, 97%);
     --community-support-bg: rgb(250, 250, 250);
+    --accent-red: red;
 }
 
 *, *::before, *::after {
@@ -23,7 +24,7 @@ header {
     align-items: center;
     background-color: var(--header-bg);
 
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
@@ -34,7 +35,11 @@ button {
 }
 
 ul li::marker {
-    color: red;
+    color: var(--accent-red);
+}
+
+strong {
+    color: var(--accent-red);
 }
 
 .cta-button a {
@@ -46,9 +51,6 @@ ul li::marker {
 
 /* Mobile */
 @media only screen and (min-width: 320px) {
-    html {
-        scroll-snap-type: y mandatory;
-    }
 
     /* Header */
     header {
@@ -77,11 +79,7 @@ ul li::marker {
 
     section {
         padding: 0rem 1rem;
-
-        min-height: 100vh;
-        scroll-snap-align: start;
-        scroll-snap-stop: always;
-        scroll-behavior: smooth;
+        margin: 3rem 0rem;
     }
 
     h1 {
@@ -222,7 +220,6 @@ ul li::marker {
     }
 
     footer {
-        height: 100px;
         background-color: var(--header-bg);
     }
 }
