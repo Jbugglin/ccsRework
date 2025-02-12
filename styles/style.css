@@ -256,6 +256,13 @@ strong {
         color: var(--footer-link);
         margin: 0.375rem 0rem 0rem;
     }
+
+    .privacy-policy-h1 {
+        margin: 1rem;
+    }
+    .privacy-policy-p {
+        padding: 1rem;
+    }
 }
 
 /* Tablet */
