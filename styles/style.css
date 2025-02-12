@@ -25,9 +25,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--header-bg);
-
-    position: fixed;
-    top: 0;
 }
 
 button {
@@ -61,6 +58,8 @@ strong {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: sticky;
+        top: 0;
     }
 
     .logo img {
