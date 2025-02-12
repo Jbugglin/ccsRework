@@ -89,6 +89,7 @@ strong {
         text-align: center;
         font-size: 1.75rem;
         padding: 2rem 0rem;
+        margin: 0.25rem 0rem;
     }
 
     h2 {
@@ -240,11 +241,13 @@ strong {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 1rem 0rem;
     }
 
     footer a {
         text-decoration: none;
         color: var(--footer-link);
+        margin: 0.375rem 0rem 0rem;
     }
 }
 
