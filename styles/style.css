@@ -5,7 +5,7 @@
     --accent-red: red;
     --button-font: white;
     --footer-link: white;
-    --hero-blend: hsla(0, 3%, 94%, 0.733);
+    --hero-blend: hsla(0, 3%, 94%, 0.734);
 }
 
 *, *::before, *::after {
@@ -34,6 +34,10 @@ header {
     background-size: cover;
     background-color: var(--hero-blend);
     background-blend-mode: lighten;
+}
+
+.hero-section p {
+    font-weight: 500;
 }
 
 button {
