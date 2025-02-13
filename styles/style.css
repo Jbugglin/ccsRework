@@ -89,13 +89,13 @@ strong {
 
     section {
         padding: 0rem 1rem;
-        min-height: 100vh;
+        min-height: 95vh;
     }
 
     h1 {
         text-align: center;
         font-size: 1.75rem;
-        padding: 2rem 0rem;
+        padding: 1rem 0rem;
         margin: 0.25rem 0rem;
     }
 
@@ -109,16 +109,15 @@ strong {
     .hero-section {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
     .hero-section h1 {
-        margin: 0.25rem 0rem;
+        margin: 2rem 0rem;
     }
 
     .hero-section p {
-        margin: 0.5rem 0rem;
+        margin: 2rem 0rem;
         font-size: 1.125rem;
         line-height: 1.5;
     }
