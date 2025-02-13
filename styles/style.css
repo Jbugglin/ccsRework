@@ -65,6 +65,10 @@ strong {
 
 /* Mobile */
 @media only screen and (min-width: 320px) {
+    body {
+        display: flex;
+        flex-direction: column; 
+    }
 
     /* Header */
     header {
@@ -95,6 +99,7 @@ strong {
 
     section {
         padding: 0rem 1rem;
+        flex-grow: 1;
         min-height: fit-content;
     }
 
