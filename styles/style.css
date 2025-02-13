@@ -89,7 +89,7 @@ strong {
 
     section {
         padding: 0rem 1rem;
-        min-height: 95vh;
+        min-height: fit-content;
     }
 
     h1 {
@@ -107,23 +107,24 @@ strong {
 
     /* Hero section */
     .hero-section {
+        height: 95dvh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .hero-section h1 {
-        margin: 2rem 0rem;
+        margin: 3rem 0rem;
     }
 
     .hero-section p {
-        margin: 2rem 0rem;
+        margin: 3rem 0rem;
         font-size: 1.125rem;
         line-height: 1.5;
     }
 
     .hero-section button {
-        margin: 2rem 0rem;
+        margin: 6rem 0rem 0rem;
         padding: 1rem 2rem;
         display: flex;
         justify-content: center;
@@ -139,6 +140,9 @@ strong {
     }
 
     /* Client service section */
+    .client-service-section {
+        margin: 2rem 0rem;
+    }
 
     .client-service-section ul {
         padding: 0rem 2.5rem;
@@ -164,6 +168,7 @@ strong {
     /* Commercial services section */
     .commercial-services-section {
         background-color: var(--commercial-services-bg);
+        margin: 2rem 0rem;
     }
 
     .commercial-services-section .services-container {
@@ -200,6 +205,10 @@ strong {
     }
 
     /* Client testimonial section */
+    .client-testimonials {
+        margin: 2rem 0rem;
+    }
+
     .testimonial {
         margin: 1rem 1rem;
     }
@@ -216,7 +225,9 @@ strong {
 
     /* Community support section */
     .community-support-section {
-        position: relative;
+        margin: 2rem 0rem 0rem;
+        border: 2px solid var(--commercial-services-bg);
+        background-color: var(--commercial-services-bg);
     }
 
     .community-support-section ul {
