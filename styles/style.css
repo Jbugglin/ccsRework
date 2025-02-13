@@ -125,17 +125,17 @@ strong {
     }
 
     .hero-section h1 {
-        margin: 3rem 0rem;
+        margin: 2rem 0rem 1.5rem;
     }
 
     .hero-section p {
-        margin: 1.5rem 0rem;
+        margin: 1rem 0rem;
         font-size: 1.125rem;
         line-height: 1.5;
     }
 
     .hero-section button {
-        margin: 1.5rem 0rem;
+        margin: 0rem 0rem;
         padding: 1rem 2rem;
         display: flex;
         justify-content: center;
