@@ -34,6 +34,8 @@ header {
     background-size: cover;
     background-color: var(--hero-blend);
     background-blend-mode: lighten;
+    width: 100%;
+    height: auto;
 }
 
 .hero-section p {
