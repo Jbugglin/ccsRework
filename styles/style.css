@@ -34,8 +34,6 @@ header {
     background-size: cover;
     background-color: var(--hero-blend);
     background-blend-mode: lighten;
-    width: 100vw;
-    height: 100vh;
 }
 
 .hero-section p {
@@ -65,6 +63,10 @@ strong {
 
 /* Mobile */
 @media only screen and (min-width: 320px) {
+    body {
+        display: flex;
+        flex-direction: column; 
+    }
 
     /* Header */
     header {
@@ -95,6 +97,7 @@ strong {
 
     section {
         padding: 0rem 1rem;
+        flex-grow: 1;
         min-height: fit-content;
     }
 
@@ -120,17 +123,17 @@ strong {
     }
 
     .hero-section h1 {
-        margin: 3rem 0rem;
+        margin: 2rem 0rem 1.5rem;
     }
 
     .hero-section p {
-        margin: 1.5rem 0rem;
+        margin: 1rem 0rem;
         font-size: 1.125rem;
         line-height: 1.5;
     }
 
     .hero-section button {
-        margin: 1.5rem 0rem;
+        margin: 0rem 0rem;
         padding: 1rem 2rem;
         display: flex;
         justify-content: center;
